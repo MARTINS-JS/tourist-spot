@@ -1,6 +1,6 @@
 <div style="">
   <a href="#">
-    <img alt="Full-Stack" src=".github/logo.png"/>
+    <img alt="Full-Stack" src="./.github/logo.png"/>
   </a>
 </div>
 
