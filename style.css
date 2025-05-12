@@ -1,0 +1,161 @@
+:root {
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+  --bd-color-primary: #D9D9D9;
+  --bg-color-default: #F5F4F0;
+  --text-color-01: #1B1B1B;
+  --text-color-02: #333333;
+  --text-color-03: #696969; 
+  --text-color-04: #E1624F;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color-default);
+  font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--bd-color-primary);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 88px 80px 65px;
+}
+
+.main {
+  margin-bottom: 40px;
+}
+
+.headline {
+  color: var(--text-color-04);
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--text-color-01);
+  font-size: 36px;
+}
+
+.subtitle {
+  color: var(--text-color-01);
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.subtitle_caption {
+  color: var(--text-color-02);
+  font-size: 16px;
+}
+
+.main_description_image {
+  margin-top: 40px;
+}
+
+.image {
+  border-radius: 28px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image_caption {
+  color: var(--text-color-02);
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.travel {
+  margin: 64px 0px 40px;
+}
+
+.travel_title {
+  margin-bottom: 64px;
+}
+
+.card:first-child {
+  margin-top: 0px;
+}
+
+.card {
+  margin-top: 48px;
+}
+
+.card .image {
+  height: 300px;
+}
+
+.card_content {
+  margin-top: 20px;
+}
+
+.content_title {
+  color: var(--text-color-01);
+  font-size: 28px;
+}
+
+.content_text {
+  color: var(--text-color-02);
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.content_list {
+  margin-top: 20px;
+}
+
+.list_title {
+  color: var(--text-color-02);
+  font-weight: bold;
+}
+
+.list_item {
+  font-weight: bold;
+  list-style-position: inside;
+}
+
+.list_item::marker {
+  color: var(--text-color-02);
+}
+
+.list_item.history {
+  color: var(--accent-blue);  
+}
+.list_item.couples {
+  color: var(--accent-purple);
+}
+.list_item.family {
+  color: var(--accent-pink);
+}
+.list_item.budget {
+  color: var(--accent-orange);
+}
+
+.conclusion {
+  margin-top: 40px;
+}
+
+.conclusion_text {
+  color: var(--text-color-02);
+  font-size: 16px;
+  text-align: center;  
+}
+
+footer {
+  margin-bottom: 48px;
+  text-align: center;
+}
