@@ -10,7 +10,7 @@
 
 <div style="">
   <p>
-    Nesse desafio coloquei em prática os fundamentos do HTML e CSS da Formação Full-Stack da Rocketseat, o projeto foi bem bacana de desenvolver, usei alguns conceitos que já havia estudado antes no Discover e aprendi algumas própriedades novas no CSS, . 
+    Nesse desafio coloquei em prática os fundamentos do HTML e CSS da Formação Full-Stack da Rocketseat, o projeto foi bem bacana de desenvolver, usei alguns conceitos que já havia estudado antes no Discover e aprendi algumas própriedades novas no CSS. 
   </p>
 </div>
 
